@@ -1,0 +1,12 @@
+progress-bar {
+  display: block;
+  height: 20px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: white;
+  div {
+    background-color: #333333;
+    height: 100%;
+    transition: width .3s;
+  }
+}
